@@ -2,13 +2,17 @@
     {
         "lang_code": "pt",
         "content": {
-            "provisionInfoPlanet": "Sua identidade está sendo provisionada.[form cdn]"
+            "provisionInfoPlanet": "Sua identidade está sendo provisionada.[form cdn]",
+            "propagationFirstStage": "Provisioning your identity. Expected remaining time - cdn "
+
         }
     },
     {
         "lang_code": "en",
         "content": {
-            "provisionInfoPlanet": "Provisioning your identity.[from cdn]"
+            "provisionInfoPlanet": "Provisioning your identity.[from cdn]",
+            "propagationFirstStage": "Provisioning your identity. Expected remaining time - cdn"
+
         }
     }
 ]
