@@ -1,0 +1,23 @@
+[
+    {
+        "lang_code": "pt",
+        "content": {
+           "made" : "Feito com",
+           "by": "pela equipe ThirdEarth[From CDN]",
+           "policies": "Políticas e Privacidade",
+           "cookies": "Cookies"
+
+        }
+    },
+    {
+        "lang_code": "en",
+
+        "content": {
+            "made" : "Made with",
+            "by": "by the ThirdEarth [from CDN] team",
+            "terms": "Terms of Service",
+            "policies": "Policies and Privacy",
+            "cookies": "Cookies"
+        }
+    }
+]
