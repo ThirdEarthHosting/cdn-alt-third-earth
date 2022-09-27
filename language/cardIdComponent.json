@@ -1,0 +1,14 @@
+[
+    {
+        "lang_code": "pt",
+        "content": {
+            "provisionInfoPlanet": "Sua identidade está sendo provisionada.[form cdn]"
+        }
+    },
+    {
+        "lang_code": "en",
+        "content": {
+            "provisionInfoPlanet": "Provisioning your identity.[from cdn]"
+        }
+    }
+]
