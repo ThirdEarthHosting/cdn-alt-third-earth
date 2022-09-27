@@ -4,7 +4,6 @@
         "content": {
             "provisionInfoPlanet": "Sua identidade está sendo provisionada.",
             "propagationFirstStage": "Provisioning your identity. Expected remaining time - "
-
         }
     },
     {
@@ -12,7 +11,6 @@
         "content": {
             "provisionInfoPlanet": "Provisioning your identity.",
             "propagationFirstStage": "Provisioning your identity. Expected remaining time - "
-
         }
     }
 ]
