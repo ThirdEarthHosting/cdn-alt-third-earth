@@ -1,6 +1,7 @@
 {
   "aboutWe": true,
   "client_name": "Third Earth [test]",
+  "client_email": "team@third.earth",
   "suppress_purchase": false,
   "client_product_card_preference": "withHero"
 }
