@@ -7,7 +7,7 @@
   "client_custom_links":{
     "home":"http://urbit.org", 
     "about":"https://urbit.org/overview", 
-    "blog":"https://urbit.org/blog",,
-    "test: "" 
+    "blog":"https://urbit.org/blog",
+    "test": "" 
   }
 }
