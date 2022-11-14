@@ -3,5 +3,11 @@
   "client_name": "Third Earth [test]",
   "client_email": "team@third.earth",
   "suppress_purchase": false,
-  "client_product_card_preference": "withHero"
+  "client_product_card_preference": "withHero",
+  "client_custom_links":{
+    "home":"http://urbit.org", 
+    "about":"https://urbit.org/overview", 
+    "blog":"https://urbit.org/blog",
+    "test": "" 
+  }
 }
