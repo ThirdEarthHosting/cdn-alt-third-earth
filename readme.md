@@ -141,7 +141,7 @@ There are two types of product card available, with hero image and without hero 
 <img src="https://cdn-readme.third.earth/nonHero.png">
 
 ## Product card with hero image
-<hr/><img src="https://cdn-readme.third.earth/nonHero.png">
+<hr/><img src="https://cdn-readme.third.earth/withHero.png">
 <hr/>
 
 By default, the product card comes without a hero image, if you want to configure it, change your settings.json file by adding the following key:
