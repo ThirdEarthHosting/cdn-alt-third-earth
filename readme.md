@@ -1,6 +1,8 @@
 # Colors description
 
 The color section represents the set of colors available to create the site's theme, from primary to tertiary colors, with their respective variations. When customizing your theme, the keys on the objects will indicate which property should be used in the global style sheet. If there is any very specific customization, please contact the ThirdEarth development.
+All color and font changes are made in the <code>styles.json</code> file of your cdn
+
 
 **Tips**
 
@@ -87,25 +89,25 @@ The font block brings the two possible font groups that the site can use, [prima
 
  # Hero Images and Logo
 
-
+## Hero Images
 *Hero image functionality is now* available for some components. Currently available the banner and the section whyUrbit.
 However, images need to meet some requirements to take full advantage of the functionality and provide a good end-user experience. 
 
-### Normal size
+#### Normal size
 
-- #### maximum recommended size 800kb
-- #### maximum recommended resolution 3000x1848px
+- ##### maximum recommended size 800kb
+- ##### maximum recommended resolution 3000x1848px
 
-### Moblile Size
+#### Moblile Size
 
 - #### maximum recommended size 700kb
 - #### maximum recommended resolution 854x1183px
 
 It is necessary to remember the contrast that must exist between the background image and the text on it. When a background image is being used, the default color of the text is the one with the secondaryText key, in this case, the chosen image should make a contrast, improving the user's view.
 
-### Logo img Size
+## Logo Image Size
 If it's a rectangular image
-- #### maximum recommended size 980px × 317 pixels
+- #### maximum recommended resolution 980px × 317 px
 If it's a square image
 
 - #### maximum recommended resolution 410px × 410px
@@ -121,7 +123,7 @@ The home page, blog and about are enabled for this.<br>
 * /blog <br>
 * /about
 
-If you want to use this feature, change your settings.json file by adding the following keys:
+If you want to use this feature, change your <code>settings.json</code> file by adding the following keys:
 
 ```json
 "client_custom_links":{
@@ -144,7 +146,7 @@ There are two types of product card available, with hero image and without hero 
 <hr/><img src="https://cdn-readme.third.earth/withHero.png">
 <hr/>
 
-By default, the product card comes without a hero image, if you want to configure it, change your settings.json file by adding the following key:
+By default, the product card comes without a hero image, if you want to configure it, change your <code>settings.json</code> file by adding the following key:
 
 ```json
 "client_product_card_preference": "withHero"
@@ -153,7 +155,7 @@ By default, the product card comes without a hero image, if you want to configur
 .
 # Suppress purchase cycle
 It is possible to enable or disable the ship purchase cycle in the application. By enabling this functionality, the entire purchase cycle is disabled, but the user will still be able to continue accessing and managing their existing ships.
-To enable or this functionality, change the settings.json file by adding the following key:
+To enable or this functionality, change the <code>settings.json</code> file by adding the following key:
 
 ```json
   "suppress_purchase": true,
@@ -166,10 +168,10 @@ it is possible to customize the texts of the site, for each page/component. To d
 
 **Use case: Changing footer text**
 <br>
-To change the footer text, create the footer.json file inside the language.json folder in your cdn repository.
+To change the footer text, create the footer.json file inside the <code>language.json</code> folder in your cdn repository.
 Insert the code below into the file:
 
-cdn>language>footer.json
+cdn>language>footerComponent.json
 ```json
 [
     {
