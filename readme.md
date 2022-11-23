@@ -151,6 +151,12 @@ By default, the product card comes without a hero image, if you want to configur
 ```json
 "client_product_card_preference": "withHero"
 ```
+### Product image size
+- #### maximum recommended resolution 1300px x 952px
+
+Larger or smaller recommended sizes can be used, depending on the level of detail in the image, it may be interesting to test beforehand.
+
+
 
 .
 # Suppress purchase cycle
